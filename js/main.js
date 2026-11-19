@@ -5,7 +5,7 @@
 'use strict';
 
 /* ── Config (placeholder number — apna real number yahan daalein) ── */
-const WA_NUMBER = '919876543210';
+const WA_NUMBER = '916205419987';
 const BUSINESS_NAME = 'Yadav Dudh';
 
 /* ── Product catalog ── */

@@ -51,14 +51,14 @@ yadavdudh/
 
 | Kya badalna hai | Kahaan |
 |---|---|
-| WhatsApp number | `js/main.js` → `WA_NUMBER` (और `index.html` में `wa.me/919876543210` links) |
+| WhatsApp number | `js/main.js` → `WA_NUMBER` (और `index.html` में `wa.me/916205419987` links) |
 | Prices / products | `js/main.js` → `PRODUCTS` array |
 | Monthly plans | `js/main.js` → `PLANS` array |
 | Phone / address / email | `index.html` → footer + Order section |
 | Product images | `images/products/` folder में same name से replace करें |
 | Colors / branding | `css/style.css` → `:root` variables |
 
-> ⚠️ **Placeholder नोट:** Phone number (`+91 98765 43210`), address (Village Bhogapur, Phagwara), email (hello@yadavdudh.in) और FSSAI number अभी **sample** हैं — जिन्हें real details से replace करना है।
+> ⚠️ **Placeholder नोट:** Phone (`+91 62054 19987`) और email (manishk22650@gmail.com) owner की real details हैं। Address (Village Bhogapur, Phagwara), FSSAI number और prices अभी **sample** हैं — जिन्हें real details से replace करना है।
 
 ## 🌐 Deployment (free)
 

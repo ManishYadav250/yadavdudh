@@ -1,0 +1,391 @@
+<!DOCTYPE html>
+<html lang="hi">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="Yadav Dudh — गांव से सीधा आपके घर तक शुद्ध, ताज़ा गायों-भैंसों का दूध, घी, दही, पनीर और मक्खन। सुबह की डिलीवरी, बिना मिलावट, कैश ऑन डिलीवरी। WhatsApp पर ऑर्डर करें!" />
+  <meta name="keywords" content="Yadav Dudh, pure milk delivery, gaon ka doodh, gai ka dudh, bhains ka dudh, desi ghee, taaza dahi, paneer, makhan, fresh milk delivery near me, Phagwara dairy" />
+  <meta name="theme-color" content="#14532d" />
+  <title>Yadav Dudh | गांव का शुद्ध दूध — ताज़ा डिलीवरी | Fresh Milk & Dairy Products</title>
+
+  <!-- Open Graph -->
+  <meta property="og:type" content="website" />
+  <meta property="og:title" content="Yadav Dudh | गांव का शुद्ध दूध — ताज़ा डिलीवरी" />
+  <meta property="og:description" content="गांव से सीधा आपके घर तक — शुद्ध गाय-भैंस का दूध, घी, दही, पनीर और मक्खन। सुबह की डिलीवरी, कोई मिलावट नहीं।" />
+  <meta property="og:image" content="images/hero-milk.jpg" />
+  <meta property="og:locale" content="hi_IN" />
+
+  <!-- Icons & Fonts -->
+  <link rel="icon" type="image/svg+xml" href="images/logo.svg" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Baloo+2:wght@500;600;700;800&family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet" />
+
+  <!-- Structured data -->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "LocalBusiness",
+    "name": "Yadav Dudh",
+    "description": "Gaon se seedha aapke ghar tak shudh, taaza dudh aur dairy products.",
+    "telephone": "+91 98765 43210",
+    "email": "hello@yadavdudh.in",
+    "address": {
+      "@type": "PostalAddress",
+      "streetAddress": "Yadav Dairy, Village Bhogapur, Near Hanuman Mandir",
+      "addressLocality": "Phagwara",
+      "addressRegion": "Punjab",
+      "postalCode": "144401",
+      "addressCountry": "IN"
+    },
+    "openingHours": "Mo-Su 05:00-21:00",
+    "servesCuisine": "Dairy",
+    "priceRange": "₹₹"
+  }
+  </script>
+
+  <link rel="stylesheet" href="css/style.css" />
+</head>
+<body>
+
+  <!-- ══════════ TOP TICKER ══════════ -->
+  <div class="ticker" aria-hidden="true">
+    <div class="ticker-track" id="tickerTrack">
+      <span>🌅 सुबह 6–8 बजे ताज़ी डिलीवरी</span>
+      <span>🐄 100% शुद्ध — कोई मिलावट नहीं</span>
+      <span>💧 कोई पानी, कोई पाउडर नहीं</span>
+      <span>💵 कैश ऑन डिलीवरी / UPI</span>
+      <span>⏸️ छुट्टी पर डिलीवरी pause करें — कोई charge नहीं</span>
+      <span>🌾 गांव के किसानों से सीधा संग्रह</span>
+    </div>
+  </div>
+
+  <!-- ══════════ NAVBAR ══════════ -->
+  <header class="nav" id="navBar">
+    <div class="container nav-inner">
+      <a href="#home" class="brand" aria-label="Yadav Dudh — Home">
+        <img src="images/logo.svg" alt="Yadav Dudh logo" class="brand-logo" width="52" height="52" />
+        <span class="brand-text">
+          <span class="brand-name">Yadav <em>Dudh</em></span>
+          <span class="brand-tag">Gaon Ka Shudh Dudh</span>
+        </span>
+      </a>
+
+      <nav class="nav-links" id="navLinks" aria-label="Main navigation">
+        <a href="#home">Home</a>
+        <a href="#products">Products</a>
+        <a href="#plans">Monthly Plans</a>
+        <a href="#how">Process</a>
+        <a href="#faq">FAQ</a>
+        <a href="#contact">Contact</a>
+      </nav>
+
+      <a href="#order" class="btn btn-gold nav-cta">Order Now</a>
+
+      <button class="hamburger" id="hamburger" aria-label="Menu toggle" aria-expanded="false" aria-controls="mobileMenu">
+        <span></span><span></span><span></span>
+      </button>
+    </div>
+    <div class="mobile-menu" id="mobileMenu">
+      <a href="#home">Home</a>
+      <a href="#products">Products</a>
+      <a href="#plans">Monthly Plans</a>
+      <a href="#how">Process</a>
+      <a href="#faq">FAQ</a>
+      <a href="#contact">Contact</a>
+      <a href="#order" class="btn btn-gold btn-block">🛒 Order Now</a>
+    </div>
+  </header>
+
+  <main>
+    <!-- ══════════ HERO ══════════ -->
+    <section class="hero" id="home">
+      <div class="hero-bg-decor" aria-hidden="true"></div>
+      <div class="container hero-grid">
+        <div class="hero-copy reveal">
+          <span class="pill">🐄 Gaon Se Seedha Aapke Ghar Tak</span>
+          <h1 class="hero-title">Shudh Dudh,<br /><span class="text-gold">Rozana Aapke</span><br />Dwaar Tak</h1>
+          <p class="hero-sub">
+            गांव के ताज़ा गाय-भैंस का दूध, शुद्ध देसी घी, दही, पनीर और मक्खन —
+            बिना मिलावट, बिना प्रिज़रवेटिव, सीधे आपके दरवाज़े तक।
+            हर सुबह <strong>6 से 8 बजे</strong> तक डिलीवरी।
+          </p>
+          <div class="hero-ctas">
+            <a href="https://wa.me/919876543210?text=Namaste%20Yadav%20Dudh!%20Mujhe%20order%20karna%20hai." class="btn btn-whatsapp btn-lg" target="_blank" rel="noopener">
+              <svg viewBox="0 0 24 24" width="22" height="22" fill="currentColor" aria-hidden="true"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.297-.347.446-.52.149-.174.198-.298.297-.497.1-.198.05-.371-.025-.52-.074-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51l-.57-.01c-.198 0-.52.074-.792.372s-1.04 1.016-1.04 2.479 1.065 2.875 1.213 3.074c.149.198 2.096 3.2 5.077 4.487.709.306 1.262.49 1.694.627.712.226 1.36.194 1.871.118.571-.085 1.758-.718 2.006-1.41.248-.694.248-1.289.173-1.414-.074-.124-.272-.198-.57-.347m-5.421 5.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a8.19 8.19 0 01-1.26-4.827c0-4.527 3.686-8.213 8.214-8.213a8.165 8.165 0 015.801 2.405 8.158 8.158 0 012.406 5.822c0 4.528-3.688 8.214-8.214 8.214m7.119-18.403A10.72 10.72 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.88 11.88 0 005.683 1.448h.005c6.556 0 11.89-5.335 11.893-11.893a11.82 11.82 0 00-3.48-8.413Z"/></svg>
+              WhatsApp Pe Order Karein
+            </a>
+            <a href="#products" class="btn btn-outline btn-lg">Products Dekhein ↓</a>
+          </div>
+          <ul class="hero-points">
+            <li>✅ FSSAI Certified</li>
+            <li>✅ Morning 6–8 AM Delivery</li>
+            <li>✅ Cash / UPI Payment</li>
+          </ul>
+        </div>
+
+        <div class="hero-visual reveal">
+          <div class="hero-card">
+            <img src="images/hero-milk.jpg" alt="गांव में भरी जाती शुद्ध दूध की बोतल — Yadav Dudh" class="hero-img" width="720" height="960" />
+            <div class="float-badge badge-top">
+              <span class="fb-num">800+</span>
+              <span class="fb-label">Ghar Rozana<br/>Delivery</span>
+            </div>
+            <div class="float-badge badge-bottom">
+              <span class="fb-star">★★★★★</span>
+              <span class="fb-label"><strong>4.9/5</strong> — 1,200+ reviews</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ══════════ STATS STRIP ══════════ -->
+    <section class="stats" aria-label="Yadav Dudh ke numbers">
+      <div class="container stats-grid">
+        <div class="stat"><span class="stat-num"><span data-counter="800">0</span>+</span><span class="stat-label">Ghar rozana delivery</span></div>
+        <div class="stat"><span class="stat-num"><span data-counter="25">0</span>L+</span><span class="stat-label">रोज़ सप्लाई किया दूध</span></div>
+        <div class="stat"><span class="stat-num"><span data-counter="12">0</span> Saal</span><span class="stat-label">se gaon se shudh doodh</span></div>
+        <div class="stat"><span class="stat-num"><span data-counter="100">0</span>%</span><span class="stat-label">Shudh — koi milavat nahi</span></div>
+      </div>
+    </section>
+
+    <!-- ══════════ PRODUCTS ══════════ -->
+    <section class="section products" id="products">
+      <div class="container">
+        <div class="section-head">
+          <span class="section-kicker">🌿 Hamare Products</span>
+          <h2 class="section-title">Farm Fresh, <span class="text-green">Ghar Tak</span></h2>
+          <p class="section-sub">सब कुछ गांव के डेयरी फार्म से same-day, बिना मिलावट। "Order" दबाएं — सीधा WhatsApp पर ऑर्डर हो जाएगा।</p>
+        </div>
+
+        <div class="product-grid" id="productGrid"><!-- JS se render hota hai --></div>
+      </div>
+    </section>
+
+    <!-- ══════════ MONTHLY PLANS ══════════ -->
+    <section class="section plans" id="plans">
+      <div class="container">
+        <div class="section-head">
+          <span class="section-kicker">📅 Monthly Subscription</span>
+          <h2 class="section-title">Roz Ka Dudh, <span class="text-green">Ek Saath Payment</span></h2>
+          <p class="section-sub">महीने का milk plan लीजिए — हर सुबह अपने आप डिलीवरी। छुट्टी पर pause करें, कोई extra charge नहीं।</p>
+        </div>
+
+        <div class="plans-grid" id="plansGrid"><!-- JS se render hota hai --></div>
+        <p class="plans-note">* Prices sample हैं — final rate WhatsApp पर confirm होगा। Ghee/Dahi/Paneer combo plans भी available हैं।</p>
+      </div>
+    </section>
+
+    <!-- ══════════ HOW IT WORKS ══════════ -->
+    <section class="section how" id="how">
+      <div class="container">
+        <div class="section-head">
+          <span class="section-kicker">🔄 Kaise Kaam Karta Hai</span>
+          <h2 class="section-title">Gaon Se Ghar Tak — <span class="text-green">4 Simple Steps</span></h2>
+        </div>
+
+        <div class="steps-grid">
+          <div class="step reveal"><span class="step-num">1</span><div class="step-icon">🌅</div><h3>सुबह 4 बजे Collection</h3><p>गांव के सभी फार्म से ताज़ा दूध steel chilled canisters में collect किया जाता है।</p></div>
+          <div class="step reveal"><span class="step-num">2</span><div class="step-icon">🔬</div><h3>Quality Check</h3><p>हर batch का purity test (फैट %, SNF, adulteration) — fail होने पर दूध reject।</p></div>
+          <div class="step reveal"><span class="step-num">3</span><div class="step-icon">❄️</div><h3>Chilling & Packing</h3><p>4°C पर chill करके clean, food-grade bottles में pack। कोई preservative नहीं।</p></div>
+          <div class="step reveal"><span class="step-num">4</span><div class="step-icon">🚲</div><h3>6–8 AM Delivery</h3><p>आपके दरवाज़े पर ताज़ा दूध। Cash या UPI — जो आपके लिए आसान हो।</p></div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ══════════ ABOUT / WHY US ══════════ -->
+    <section class="section about" id="about">
+      <div class="container about-grid">
+        <div class="about-visual reveal">
+          <img src="images/farm.jpg" alt="Yadav Dudh ka village dairy farm — सुबह की milk collection" loading="lazy" width="1200" height="800" />
+          <div class="about-quote">“हर बोतल में वही दूध जो गांव में भरा जाता है — कोई adulteration नहीं, कोई compromise नहीं।”</div>
+        </div>
+        <div class="about-copy reveal">
+          <span class="section-kicker">🤝 Hum Kaun Hain</span>
+          <h2 class="section-title left">12 Saal Se, <span class="text-green">Bharosa Banane Ka Kaam</span></h2>
+          <p class="about-text">Yadav Dudh की शुरुआत 2014 में एक छोटे से गांव के दो भैंसों वाले डेयरी से हुई थी। आज हम <strong>Phagwara और आसपास के 25+ गांवों</strong> के 800+ घरों तक रोज़ ताज़ा दूध पहुंचाते हैं — सीधे उन किसानों से जिन्हें हम personally जानते हैं।</p>
+          <ul class="about-list">
+            <li><span class="check">✓</span><div><strong>Direct village sourcing</strong> — कोई बिचौलिया नहीं, पूरा chain transparent।</div></li>
+            <li><span class="check">✓</span><div><strong>Same-day delivery</strong> — सुबह का दूध उसी सुबह आपके घर।</div></li>
+            <li><span class="check">✓</span><div><strong>Purity guarantee</strong> — कभी-कभी घर ले जाकर alcohol test कर लीजिए, result हर बार पक्का।</div></li>
+            <li><span class="check">✓</span><div><strong>Farmer-first</strong> — किसानों को fair rate, ताकि quality कभी compromise न हो।</div></li>
+            <li><span class="check">✓</span><div><strong>Pause anytime</strong> — छुट्टियों पर एक WhatsApp, delivery रुक जाएगी। कोई penalty नहीं।</div></li>
+          </ul>
+        </div>
+      </div>
+    </section>
+
+    <!-- ══════════ TESTIMONIALS ══════════ -->
+    <section class="section testimonials" id="reviews">
+      <div class="container">
+        <div class="section-head">
+          <span class="section-kicker">💬 Customers Kya Kehte Hain</span>
+          <h2 class="section-title">Bharosa Jo <span class="text-green">Roz Bheja Jaata Hai</span></h2>
+        </div>
+        <div class="review-grid" id="reviewGrid"><!-- JS se render hota hai --></div>
+      </div>
+    </section>
+
+    <!-- ══════════ FAQ ══════════ -->
+    <section class="section faq" id="faq">
+      <div class="container faq-wrap">
+        <div class="section-head left">
+          <span class="section-kicker">❓ Sawal-Jawab</span>
+          <h2 class="section-title left">Aksar Puche Jaane Wale <span class="text-green">Sawaal</span></h2>
+          <p class="section-sub left">कुछ और पूछना है? सीधे <a href="https://wa.me/919876543210" target="_blank" rel="noopener" class="inline-link">WhatsApp</a> पर message करें — 10 मिनट में जवाब।</p>
+        </div>
+        <div class="faq-list" id="faqList"><!-- JS se render hota hai --></div>
+      </div>
+    </section>
+
+    <!-- ══════════ ORDER FORM ══════════ -->
+    <section class="section order" id="order">
+      <div class="container order-grid">
+        <div class="order-copy reveal">
+          <span class="section-kicker">🛒 Order Karein</span>
+          <h2 class="section-title left">2 Minute Me <span class="text-gold">Order Place</span> Karein</h2>
+          <p class="order-sub">Form bhariye — aapka order seedha WhatsApp pe message banke chala jayega. Confirm karte hi kal subah 6–8 baje delivery start.</p>
+          <ul class="order-perks">
+            <li>🚚 <strong>Free delivery</strong> within 5 km radius</li>
+            <li>💵 <strong>Cash on delivery</strong> ya UPI — aapki marzi</li>
+            <li>🔁 <strong>Monthly subscription</strong> pe extra discount</li>
+            <li>📞 Confirm nahi aaya? Call karein: <a href="tel:+919876543210">+91 98765 43210</a></li>
+          </ul>
+          <div class="order-note">
+            <strong>Delivery Area:</strong> Phagwara, Bhogapur, Hargobindpur Road, Model Town, Industrial Area &amp; nearby villages (5 km radius)
+          </div>
+        </div>
+
+        <form class="order-form reveal" id="orderForm" novalidate>
+          <h3 class="form-title">Order Details</h3>
+
+          <div class="form-row two">
+            <div class="field">
+              <label for="customerName">Aapka Naam *</label>
+              <input type="text" id="customerName" name="name" placeholder="e.g. Manish Yadav" required autocomplete="name" />
+            </div>
+            <div class="field">
+              <label for="customerPhone">Phone (WhatsApp) *</label>
+              <input type="tel" id="customerPhone" name="phone" placeholder="98XXX XXXXX" required autocomplete="tel" inputmode="numeric" maxlength="10" />
+            </div>
+          </div>
+
+          <div class="form-row two">
+            <div class="field">
+              <label for="productSelect">Product *</label>
+              <select id="productSelect" name="product" required><!-- JS options --></select>
+            </div>
+            <div class="field">
+              <label for="quantity">Quantity *</label>
+              <div class="qty-stepper">
+                <button type="button" class="qty-btn" id="qtyMinus" aria-label="Quantity kam karein">−</button>
+                <input type="number" id="quantity" name="quantity" min="1" max="100" step="1" value="1" required inputmode="numeric" />
+                <button type="button" class="qty-btn" id="qtyPlus" aria-label="Quantity badhayein">+</button>
+              </div>
+            </div>
+          </div>
+
+          <div class="form-row two">
+            <div class="field">
+              <label for="deliveryTime">Delivery Time *</label>
+              <select id="deliveryTime" name="time" required>
+                <option value="Subah 6–8 AM (Morning)" selected>Subah 6–8 AM</option>
+                <option value="Shaam 6–8 PM (Evening)">Shaam 6–8 PM</option>
+              </select>
+            </div>
+            <div class="field">
+              <label for="deliveryType">Order Type</label>
+              <select id="deliveryType" name="type">
+                <option value="One-time order">One-time</option>
+                <option value="Daily subscription">Daily Subscription</option>
+                <option value="Monthly plan">Monthly Plan</option>
+              </select>
+            </div>
+          </div>
+
+          <div class="field">
+            <label for="address">Delivery Address *</label>
+            <textarea id="address" name="address" rows="2" placeholder="Ghar no., Street, Mohalla / Village, Landmark…" required></textarea>
+          </div>
+
+          <div class="field">
+            <label for="notes">Notes <span class="optional">(optional)</span></label>
+            <input type="text" id="notes" name="notes" placeholder="e.g. Gate band ho to bell bajayein" />
+          </div>
+
+          <p class="form-error" id="formError" role="alert" hidden></p>
+
+          <button type="submit" class="btn btn-whatsapp btn-block btn-lg">
+            <svg viewBox="0 0 24 24" width="20" height="20" fill="currentColor" aria-hidden="true"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.297-.347.446-.52.149-.174.198-.298.297-.497.1-.198.05-.371-.025-.52-.074-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51l-.57-.01c-.198 0-.52.074-.792.372s-1.04 1.016-1.04 2.479 1.065 2.875 1.213 3.074c.149.198 2.096 3.2 5.077 4.487.709.306 1.262.49 1.694.627.712.226 1.36.194 1.871.118.571-.085 1.758-.718 2.006-1.41.248-.694.248-1.289.173-1.414-.074-.124-.272-.198-.57-.347m-5.421 5.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a8.19 8.19 0 01-1.26-4.827c0-4.527 3.686-8.213 8.214-8.213a8.165 8.165 0 015.801 2.405 8.158 8.158 0 012.406 5.822c0 4.528-3.688 8.214-8.214 8.214m7.119-18.403A10.72 10.72 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.88 11.88 0 005.683 1.448h.005c6.556 0 11.89-5.335 11.893-11.893a11.82 11.82 0 00-3.48-8.413Z"/></svg>
+            WhatsApp Pe Order Bhejein
+          </button>
+          <p class="form-fineprint">Order confirm karne ke liye hamari team aapko WhatsApp/call karegi. Koi advance payment nahi.</p>
+        </form>
+      </div>
+    </section>
+  </main>
+
+  <!-- ══════════ CONTACT / FOOTER ══════════ -->
+  <footer class="footer" id="contact">
+    <div class="container footer-grid">
+      <div class="footer-col footer-brand">
+        <a href="#home" class="brand footer-logo">
+          <img src="images/logo.svg" alt="Yadav Dudh logo" width="46" height="46" />
+          <span class="brand-text"><span class="brand-name light">Yadav <em>Dudh</em></span><span class="brand-tag light">Gaon Ka Shudh Dudh</span></span>
+        </a>
+        <p class="footer-text">गांव के शुद्ध दूध की पहचान — 2014 से, बिना मिलावट के, सीधा आपके घर तक।</p>
+        <form class="newsletter" id="newsletterForm">
+          <label for="nlEmail" class="nl-label">Offers &amp; Pooja dates newsletter</label>
+          <div class="nl-row">
+            <input type="email" id="nlEmail" placeholder="aapka@email.com" required aria-label="Email for newsletter" />
+            <button type="submit" class="btn btn-gold">Join</button>
+          </div>
+        </form>
+      </div>
+
+      <div class="footer-col">
+        <h4>Quick Links</h4>
+        <ul><li><a href="#home">Home</a></li><li><a href="#products">Products</a></li><li><a href="#plans">Monthly Plans</a></li><li><a href="#how">Process</a></li><li><a href="#faq">FAQ</a></li><li><a href="#order">Order Now</a></li></ul>
+      </div>
+
+      <div class="footer-col">
+        <h4>Hamare Products</h4>
+        <ul id="footerProductList"><!-- JS se render --></ul>
+      </div>
+
+      <div class="footer-col">
+        <h4>Sampark Karein</h4>
+        <ul class="contact-list">
+          <li>📍 <span>Yadav Dairy, Village Bhogapur,<br/>Near Hanuman Mandir,<br/>Phagwara, Punjab – 144401</span></li>
+          <li>📞 <a href="tel:+919876543210">+91 98765 43210</a></li>
+          <li>💬 <a href="https://wa.me/919876543210" target="_blank" rel="noopener">wa.me/919876543210</a></li>
+          <li>✉️ <a href="mailto:hello@yadavdudh.in">hello@yadavdudh.in</a></li>
+          <li>🕕 <span>Rozana: 5:00 AM – 9:00 PM</span></li>
+        </ul>
+      </div>
+    </div>
+
+    <div class="footer-bottom">
+      <div class="container fb-inner">
+        <p>© <span id="currentYear">2026</span> Yadav Dudh. Sarvādhikār surakshit.</p>
+        <p class="fb-fine">FSSAI Lic. No. 10024999000123 (sample) &nbsp;•&nbsp; Made with ❤️ in Punjab</p>
+      </div>
+    </div>
+  </footer>
+
+  <!-- ══════════ FLOATING WHATSAPP ══════════ -->
+  <a href="https://wa.me/919876543210?text=Namaste%20Yadav%20Dudh!%20Mujhe%20order%20karna%20hai." class="wa-float" target="_blank" rel="noopener" aria-label="WhatsApp par message karein">
+    <svg viewBox="0 0 24 24" width="30" height="30" fill="currentColor" aria-hidden="true"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.297-.347.446-.52.149-.174.198-.298.297-.497.1-.198.05-.371-.025-.52-.074-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51l-.57-.01c-.198 0-.52.074-.792.372s-1.04 1.016-1.04 2.479 1.065 2.875 1.213 3.074c.149.198 2.096 3.2 5.077 4.487.709.306 1.262.49 1.694.627.712.226 1.36.194 1.871.118.571-.085 1.758-.718 2.006-1.41.248-.694.248-1.289.173-1.414-.074-.124-.272-.198-.57-.347m-5.421 5.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a8.19 8.19 0 01-1.26-4.827c0-4.527 3.686-8.213 8.214-8.213a8.165 8.165 0 015.801 2.405 8.158 8.158 0 012.406 5.822c0 4.528-3.688 8.214-8.214 8.214m7.119-18.403A10.72 10.72 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.88 11.88 0 005.683 1.448h.005c6.556 0 11.89-5.335 11.893-11.893a11.82 11.82 0 00-3.48-8.413Z"/></svg>
+    <span class="wa-float-tip">Chat with us</span>
+  </a>
+
+  <!-- Back to top -->
+  <button class="back-top" id="backTop" aria-label="Upar jayein">↑</button>
+
+  <!-- Toast -->
+  <div class="toast" id="toast" role="status" aria-live="polite"></div>
+
+  <script src="js/main.js"></script>
+</body>
+</html>

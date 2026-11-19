@@ -1,0 +1,21 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64">
+  <circle cx="32" cy="32" r="30" fill="#14532d"/>
+  <circle cx="32" cy="32" r="29" fill="none" stroke="#d9a521" stroke-width="2.4"/>
+  <!-- horns -->
+  <path d="M20.5 20.2c-2.6-4.6 1.6-7.6 4.6-5.4l2.4 3.4z" fill="#d9a521"/>
+  <path d="M43.5 20.2c2.6-4.6-1.6-7.6-4.6-5.4l-2.4 3.4z" fill="#d9a521"/>
+  <!-- ears -->
+  <ellipse cx="15.6" cy="31.5" rx="6.2" ry="3.6" fill="#f7ecd9" transform="rotate(-18 15.6 31.5)"/>
+  <ellipse cx="48.4" cy="31.5" rx="6.2" ry="3.6" fill="#f7ecd9" transform="rotate(18 48.4 31.5)"/>
+  <!-- head -->
+  <path d="M22 24.5c0-3.6 4.5-6.2 10-6.2s10 2.6 10 6.2c0 2.2.4 4.6 1.7 6.6 1.6 2.4 1.4 6.3-1.2 8.6-3 2.7-7.3 2.4-10.5 2.4s-7.5.3-10.5-2.4c-2.6-2.3-2.8-6.2-1.2-8.6 1.3-2 1.7-4.4 1.7-6.6z" fill="#fdf6ec"/>
+  <!-- eyes -->
+  <circle cx="26.4" cy="31.6" r="1.75" fill="#22301f"/>
+  <circle cx="37.6" cy="31.6" r="1.75" fill="#22301f"/>
+  <!-- snout -->
+  <ellipse cx="32" cy="43" rx="8.6" ry="5.6" fill="#e9b7b2"/>
+  <ellipse cx="28.9" cy="43.2" rx="1.25" ry="1.9" fill="#8a4b47"/>
+  <ellipse cx="35.1" cy="43.2" rx="1.25" ry="1.9" fill="#8a4b47"/>
+  <!-- forehead dot -->
+  <path d="M32 22.6l2.3 3.2h-4.6z" fill="#14532d" opacity=".85"/>
+</svg>
